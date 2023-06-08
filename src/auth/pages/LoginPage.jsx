@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
-import { useNavigate } from "react-router";
 import contactsApi from "../../api/ContactsApi";
-import { ContactsContext } from "../../context/contactsContext";
+import { ContactsContext } from "../../context/ContactsContext";
 import { useForm } from "../../hooks/useForm";''
 
 const loginFormFields = {
